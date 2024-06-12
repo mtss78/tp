@@ -54,7 +54,6 @@ p{
         font-family: "Shadows Into Light", cursive;
         color: white;
         font-size: 18px;
-
     }
 
     h1 {
@@ -69,6 +68,11 @@ p{
         
     }
      
+    
+    p{
+        margin: 0;
+    }    
+
     .section{
         background-color: #29347B;
         width: 120%;
@@ -83,3 +87,4 @@ p{
     padding: 10px;
     }
 }
+
