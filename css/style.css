@@ -11,12 +11,12 @@ body{
 header{
     text-align: center;
     background-color: rgb(39, 57, 120);
-    margin-top: 0%;
+    margin-top: 10px;
 }
 
 h1{
     margin: 0%;
-    padding: 40px;
+    padding: 60px;
 }
 section{
     background-color: rgb(39, 57, 120);
@@ -46,10 +46,11 @@ p{
     font-size: 15px;
 }
 
+
+/*Met sur iphone 14pro max stp*/
 @media screen and (max-width: 768px) {
 
     * {
-        margin : 15px;
         font-family: "Shadows Into Light", cursive;
         color: white;
         font-size: 18px;
@@ -63,11 +64,15 @@ p{
         background-color: white;
         width: 80%;
         height: 80px ;
+        margin-top: 10px;
+        
     }
+     
     
     p{
         margin: 0;
     }    
+
     .section{
         background-color: #29347B;
         width: 120%;
@@ -78,7 +83,8 @@ p{
        height: 80px;
     }
 
-    div{
-        margin: 0 auto;
+    p{
+    padding: 10px;
     }
-} 
+}
+
